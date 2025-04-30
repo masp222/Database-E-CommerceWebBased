@@ -31,8 +31,8 @@ header {
     text-align: center;
 }
 .navbar-brand img {
-    width: 50px;  /* Ukuran logo diperbesar */
-    height: 50px; /* Ukuran logo diperbesar */
+    width: 60px;  /* Ukuran logo diperbesar */
+    height: 60px; /* Ukuran logo diperbesar */
     margin-right: 10px;
 }
 /* Navbar links */
