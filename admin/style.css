@@ -1,0 +1,133 @@
+/* Custom Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #FF4B4B; /* Navbar background color */
+    color: white;
+    padding: 1px 0;
+}
+
+.navbar.fixed-top {
+    background-color: #FF4B4B !important; /* Memastikan warna tetap sesuai */
+    color: white;
+}
+
+.hero {
+    background-color: #333;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+.hero .btn {
+    background-color: #ff5722;
+    color: white;
+}
+.footer {
+    background-color: #FF4B26;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.navbar-brand img {
+    width: 50px;  /* Ukuran logo diperbesar */
+    height: 50px; /* Ukuran logo diperbesar */
+    margin-right: 10px;
+}
+/* Navbar links */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 18px; /* Ukuran teks diperbesar */
+}
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Card Styling - Smaller Version */
+/* Card Styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100% !important; /* Menambahkan agar card mengikuti ukuran container */
+    max-width: 250px; /* Membatasi ukuran maksimal card */
+    margin: 0 auto; /* Menjaga card agar berada di tengah */
+}
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #FF4B4B;
+}
+.card-body {
+    padding: 15px;
+}
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-text {
+    color: #777;
+    font-size: 0.9rem;
+}
+.card .btn {
+    background-color: #FF4B4B;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease; /* Animasi smooth saat hover */
+}
+
+.card .btn:hover {
+    background-color: #E04343; /* Warna merah sedikit lebih gelap */
+}
+
+/* Register Form Styles */
+.register-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-top: 40px;  /* Jarak di atas */
+    margin-bottom: 40px;  /* Jarak di bawah */
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-form .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form .form-group {
+    margin-bottom: 15px;
+}
+
+.register-form .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.register-form .btn-primary {
+    background-color: #FF4B4B;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-form .btn-primary:hover {
+    background-color: #E04343;
+}
