@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['customer_id'] = $user['customer_id'];
             
 
-            $_SESSION['alert'] = "Login berhasil!";
+            $_SESSION['alert'] = "Login sukses!";
             // Redirect ke halaman utama setelah login
             header("Location: index.php");
             exit;
